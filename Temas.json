@@ -1,36 +1,63 @@
 [
     {
-        "title": "The Big Combo",
+        "title": "Patrones creacionales",
         "content": [
             {
-                "subtitle": "The Big Combo Sub",
-                "text": "The Big Combo Text"
+                "subtitle": "Singleton",
+                "text": "Este patr\u00f3n asegura que una clase tenga una \u00fanica instancia y proporciona un punto de acceso global a ella.\n\nUso com\u00fan: Acceso a un recurso compartido, como una configuraci\u00f3n o un registro de log.\nEjemplo: Clase de configuraci\u00f3n global en una aplicaci\u00f3n.\n"
             },
             {
-                "subtitle": "The Big Combo Sub 2",
-                "text": "The Big Combo Text 2"
+                "subtitle": "Factory Method",
+                "text": "Define una interfaz para crear un objeto, pero permite a las subclases alterar el tipo de objetos que se crear\u00e1n.\n\nUso com\u00fan: Cuando una clase no puede anticipar el tipo de objetos que debe crear.\nEjemplo: Clases de botones en una biblioteca de GUI que pueden variar seg\u00fan el sistema operativo.\n"
+            },
+            {
+                "subtitle": "Abstract Factory",
+                "text": "Proporciona una interfaz para crear familias de objetos relacionados o dependientes sin especificar sus clases concretas.\n\nUso com\u00fan: Cuando un sistema debe ser independiente de c\u00f3mo se crean y ensamblan sus productos.\nEjemplo: Interfaces gr\u00e1ficas multiplataforma (ventanas, botones, etc.).\n"
+            },
+            {
+                "subtitle": "Builder",
+                "text": "Separa la construcci\u00c3\u00b3n de un objeto complejo de su representaci\u00c3\u00b3n, permitiendo crear diferentes representaciones con el mismo proceso de construcci\u00c3\u00b3n. \nAplicaciones: Construcci\u00c3\u00b3n de objetos complejos con m\u00c3\u00baltiples pasos de configuraci\u00c3\u00b3n."
+            },
+            {
+                "subtitle": "Prototype",
+                "text": "Permite crear nuevos objetos copiando un objeto existente, conocido como prototipo.\n\nUso com\u00fan: Cuando la instanciaci\u00f3n de una clase es costosa o compleja.\nEjemplo: Clonaci\u00f3n de objetos en juegos o simulaciones.\n"
+            },
+            {
+                "subtitle": "Object Pool",
+                "text": "Object Pool (Pool de Objetos)\nEste patr\u00f3n gestiona un conjunto de objetos reutilizables, mejorando el rendimiento al reducir la necesidad de crear y destruir objetos frecuentemente.\n\nUso com\u00fan: Gesti\u00f3n de recursos costosos, como conexiones de bases de datos, hilos de ejecuci\u00f3n, buffers, etc.\nEjemplo: Pool de conexiones a bases de datos en aplicaciones web.\n"
             }
         ]
     },
     {
-        "title": "Teeeeeeeeema 1",
+        "title": "Patrones Estructurales",
         "content": [
             {
-                "subtitle": "Subtitulo 1",
-                "text": "Texto 1"
-            }
-        ]
-    },
-    {
-        "title": "Teeeeeeeeeema 1",
-        "content": [
-            {
-                "subtitle": "Subtitulo 1",
-                "text": "Texteeeeeeeeeeeo 1"
+                "subtitle": "Adapter (Adaptador)",
+                "text": "Permite que clases con interfaces incompatibles trabajen juntas. Se utiliza para convertir la interfaz de una clase en otra interfaz que espera el cliente.\n\nEjemplo: Adaptar un Socket europeo a un enchufe estadounidense.\n"
             },
             {
-                "subtitle": "Subtitulo 2",
-                "text": "Texteeeeeeeeeeeo 2"
+                "subtitle": "Bridge (Puente)",
+                "text": "Desacopla una abstracci\u00f3n de su implementaci\u00f3n para que las dos puedan variar independientemente.\n\nEjemplo: Separar la interfaz de control remoto de la implementaci\u00f3n de una televisi\u00f3n.\n"
+            },
+            {
+                "subtitle": "Composite (Compuesto)",
+                "text": "Compone objetos en estructuras de \u00e1rbol para representar jerarqu\u00edas parte-todo. Permite tratar objetos individuales y compuestos de manera uniforme.\n\nEjemplo: Un sistema de archivos donde archivos y directorios se tratan de la misma manera.\n"
+            },
+            {
+                "subtitle": "Decorator (Decorador)",
+                "text": "A\u00f1ade responsabilidades adicionales a un objeto de forma din\u00e1mica. Los decoradores proporcionan una alternativa flexible a la herencia para extender la funcionalidad.\n\nEjemplo: Agregar funcionalidades adicionales a una ventana de GUI como bordes o barras de desplazamiento.\n"
+            },
+            {
+                "subtitle": "Facade (Fachada)",
+                "text": "Proporciona una interfaz simplificada a un conjunto m\u00e1s complejo de interfaces en un subsistema.\n\nEjemplo: Una clase Computer que simplifica las operaciones de encender la CPU, memoria y disco duro.\n"
+            },
+            {
+                "subtitle": "Flyweight (Peso Ligero)",
+                "text": "Usa el almacenamiento compartido para permitir un gran n\u00famero de objetos de grano fino de manera eficiente.\n\nEjemplo: Caracteres en un procesador de texto, donde cada car\u00e1cter puede ser un objeto compartido en lugar de un nuevo objeto.\n"
+            },
+            {
+                "subtitle": "Proxy (Representante)",
+                "text": "Proporciona un sustituto o marcador de posici\u00f3n para controlar el acceso a otro objeto.\n\nEjemplo: Un proxy de seguridad que controla el acceso a un objeto sensible.\n"
             }
         ]
     }
