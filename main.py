@@ -9,11 +9,6 @@ import tkinter
 from tkinter import ttk
 from tkinter import simpledialog
 import random
-""" 
-TODO:
-- Añadir boton para info en la interfaz
-"""
-
 
 class MyApplication:
     def __init__(self):
